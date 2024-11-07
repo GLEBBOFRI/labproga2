@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_2i-VQJ0KEe-HC8DiynxfYg" name="laba2prog">
+    <eAnnotations xmi:id="_289ikJ0KEe-HC8DiynxfYg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_29DCIJ0KEe-HC8DiynxfYg" source="codegen">
+        <details xmi:id="_29GFcJ0KEe-HC8DiynxfYg" key="codegenDirectory" value="/laba2prog/src"/>
+        <details xmi:id="_4BBAkJ0KEe-HC8DiynxfYg" key="AssociatedSourceCode" value="/laba2prog/src/laba2prog/Program.java;3612618025/1;/laba2prog/src/moves/Amnesia.java;148393004/1;/laba2prog/src/moves/Facade.java;4089292365/1;/laba2prog/src/moves/KarateChop.java;3748997547/1;/laba2prog/src/moves/MagicalLeaf.java;1474353476/1;/laba2prog/src/moves/Pound.java;609201488/1;/laba2prog/src/moves/RockTomb.java;1722987523/1;/laba2prog/src/moves/ShadowBall.java;4084042148/1;/laba2prog/src/moves/Snarl.java;2040991581/1;/laba2prog/src/moves/SweetScent.java;2277252257/1;/laba2prog/src/moves/ThunderWave.java;2598250352/1;/laba2prog/src/moves/WorkUp.java;3519421784/1;/laba2prog/src/pokemons/Clefable.java;2464474201/1;/laba2prog/src/pokemons/Clefairy.java;955309956/1;/laba2prog/src/pokemons/Cleffa.java;628459350/1;/laba2prog/src/pokemons/Comfey.java;3520907197/1;/laba2prog/src/pokemons/Pancham.java;342746969/1;/laba2prog/src/pokemons/Pangoro.java;3364566257/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_3ewoEJ0KEe-HC8DiynxfYg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_3e9cYJ0KEe-HC8DiynxfYg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_3e_RkJ0KEe-HC8DiynxfYg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_3e_4oJ0KEe-HC8DiynxfYg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_3e_4oZ0KEe-HC8DiynxfYg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_3e_4op0KEe-HC8DiynxfYg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_3fAfsJ0KEe-HC8DiynxfYg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_3fAfsZ0KEe-HC8DiynxfYg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_3fBt0J0KEe-HC8DiynxfYg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3fKQsJ0KEe-HC8DiynxfYg" name="pokemons">
+      <packagedElement xmi:type="uml:Class" xmi:id="_3jR7sJ0KEe-HC8DiynxfYg" name="Clefable">
+        <generalization xmi:id="_3yHB4J0KEe-HC8DiynxfYg" general="_3jVmEJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zeT0p0KEe-HC8DiynxfYg" name="Clefable" specification="_3jTw4J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zeT050KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3zeT1J0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3zeT1Z0KEe-HC8DiynxfYg" type="_3jR7sJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(name, level);&#xD;
+     setType(Type.FAIRY);&#xD;
+     setStats(95, 70, 73, 95, 90, 60);&#xD;
+     addMove(new Facade());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3jTw4J0KEe-HC8DiynxfYg" name="Clefable" method="_3zeT0p0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3jUX8p0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3jUX850KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3jUX8J0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jUX8Z0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jUX9J0KEe-HC8DiynxfYg" type="_3jR7sJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3jVmEJ0KEe-HC8DiynxfYg" name="Clefairy">
+        <generalization xmi:id="_3yKsQJ0KEe-HC8DiynxfYg" general="_3jZQcJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zeT1p0KEe-HC8DiynxfYg" name="Clefairy" specification="_3jXbQJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zeT150KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3zeT2J0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3zeT2Z0KEe-HC8DiynxfYg" type="_3jVmEJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(name, level);&#xD;
+     setType(Type.FAIRY);&#xD;
+     setStats(70, 45, 48, 60, 65, 35);&#xD;
+     addMove(new Pound());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3jXbQJ0KEe-HC8DiynxfYg" name="Clefairy" method="_3zeT1p0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3jYCUZ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3jYCUp0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3jXbQZ0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jYCUJ0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jYCU50KEe-HC8DiynxfYg" type="_3jVmEJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3jZQcJ0KEe-HC8DiynxfYg" name="Cleffa">
+        <generalization xmi:id="_3ysQs50KEe-HC8DiynxfYg" general="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3ze64J0KEe-HC8DiynxfYg" name="Cleffa" specification="_3jaekJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ze64Z0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3ze64p0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3ze6450KEe-HC8DiynxfYg" type="_3jZQcJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(name, level);&#xD;
+     setType(Type.FAIRY);&#xD;
+     setStats(50, 25, 28, 45, 55, 15);&#xD;
+     addMove(new ShadowBall());&#xD;
+     addMove(new ThunderWave());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3jaekJ0KEe-HC8DiynxfYg" name="Cleffa" method="_3ze64J0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3jaek50KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3jaelJ0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3jaekZ0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jaekp0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jaelZ0KEe-HC8DiynxfYg" type="_3jZQcJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3jbFoJ0KEe-HC8DiynxfYg" name="Comfey">
+        <generalization xmi:id="_3ysQtJ0KEe-HC8DiynxfYg" general="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3ze65J0KEe-HC8DiynxfYg" name="Comfey" specification="_3jc60J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ze65Z0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3ze65p0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3ze6550KEe-HC8DiynxfYg" type="_3jbFoJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(name,level);&#xD;
+		super.setType(Type.FAIRY);&#xD;
+		super.setStats(51, 52, 90, 82, 110, 100);&#xD;
+		addMove(new Facade());&#xD;
+		addMove(new SweetScent());&#xD;
+		addMove(new Amnesia());&#xD;
+		addMove(new MagicalLeaf());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3jc60J0KEe-HC8DiynxfYg" name="Comfey" method="_3ze65J0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3jf-IJ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3jf-IZ0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3jeI8J0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jfXEJ0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jf-Ip0KEe-HC8DiynxfYg" type="_3jbFoJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3jglMJ0KEe-HC8DiynxfYg" name="Pancham">
+        <generalization xmi:id="_3ys3wJ0KEe-HC8DiynxfYg" general="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3ze66J0KEe-HC8DiynxfYg" name="Pancham" specification="_3jhMQJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ze66Z0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3ze66p0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3ze6650KEe-HC8DiynxfYg" type="_3jglMJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(name, level);&#xD;
+     setType(Type.FIGHTING);&#xD;
+     setStats(67, 82, 62, 46, 48, 43);&#xD;
+     addMove(new KarateChop());&#xD;
+     addMove(new RockTomb());&#xD;
+     addMove(new WorkUp());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3jhMQJ0KEe-HC8DiynxfYg" name="Pancham" method="_3ze66J0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3jhMQ50KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3jhMRJ0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3jhMQZ0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jhMQp0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jhMRZ0KEe-HC8DiynxfYg" type="_3jglMJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3jhzUJ0KEe-HC8DiynxfYg" name="Pangoro">
+        <generalization xmi:id="_3yNIgJ0KEe-HC8DiynxfYg" general="_3jglMJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3ze67J0KEe-HC8DiynxfYg" name="Pangoro" specification="_3jiaYJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ze67Z0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3ze67p0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3ze6750KEe-HC8DiynxfYg" type="_3jhzUJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(name, level);&#xD;
+     setType(Type.FIGHTING, Type.DARK);&#xD;
+     setStats(95, 124, 78, 69, 71, 58);&#xD;
+     addMove(new Snarl());&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3jiaYJ0KEe-HC8DiynxfYg" name="Pangoro" method="_3ze67J0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3jiaY50KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3jiaZJ0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3jiaYZ0KEe-HC8DiynxfYg" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jiaYp0KEe-HC8DiynxfYg" name="level">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3jiaZZ0KEe-HC8DiynxfYg" type="_3jhzUJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3fPwQJ0KEe-HC8DiynxfYg" name="ru">
+      <packagedElement xmi:type="uml:Package" xmi:id="_3fQ-YJ0KEe-HC8DiynxfYg" name="ifmo">
+        <packagedElement xmi:type="uml:Package" xmi:id="_3fRlcJ0KEe-HC8DiynxfYg" name="se">
+          <packagedElement xmi:type="uml:Package" xmi:id="_3fRlcZ0KEe-HC8DiynxfYg" name="pokemon">
+            <packagedElement xmi:type="uml:Class" xmi:id="_3xKmsJ0KEe-HC8DiynxfYg" name="StatusMove"/>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_3xZ3QJ0KEe-HC8DiynxfYg" name="Type"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3xjBMJ0KEe-HC8DiynxfYg" name="Pokemon"/>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_3xpu4J0KEe-HC8DiynxfYg" name="Stat"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3xv1gJ0KEe-HC8DiynxfYg" name="PhysicalMove"/>
+            <packagedElement xmi:type="uml:Enumeration" xmi:id="_3xyRwJ0KEe-HC8DiynxfYg" name="Status"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3x4YYJ0KEe-HC8DiynxfYg" name="SpecialMove"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_3x_GEJ0KEe-HC8DiynxfYg" name="Effect"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3fUowJ0KEe-HC8DiynxfYg" name="laba2prog">
+      <packagedElement xmi:type="uml:Class" xmi:id="_3g59IJ0KEe-HC8DiynxfYg" name="Program">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3y5FAJ0KEe-HC8DiynxfYg" name="main" specification="_3hS-sJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3y5sEJ0KEe-HC8DiynxfYg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3y5sEZ0KEe-HC8DiynxfYg" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Battle b = new Battle();&#xD;
+&#xD;
+     // Команда A: Клеффоподобные&#xD;
+     Cleffa cleffa = new Cleffa(&quot;Cleffa&quot;, 5);&#xD;
+     Clefairy clefairy = new Clefairy(&quot;Clefairy&quot;, 10);&#xD;
+     Clefable clefable = new Clefable(&quot;Clefable&quot;, 20);&#xD;
+&#xD;
+     // Команда B: Прочие&#xD;
+     Pancham pancham = new Pancham(&quot;Pancham&quot;, 15);&#xD;
+     Pangoro pangoro = new Pangoro(&quot;Pangoro&quot;, 25);&#xD;
+     Comfey comfey = new Comfey(&quot;Comfey&quot;, 30);&#xD;
+&#xD;
+     // Добавляем покемонов в битву&#xD;
+     b.addAlly(cleffa);&#xD;
+     b.addAlly(clefairy);&#xD;
+     b.addAlly(clefable);&#xD;
+&#xD;
+     b.addFoe(pancham);&#xD;
+     b.addFoe(pangoro);&#xD;
+     b.addFoe(comfey);&#xD;
+&#xD;
+     // Запуск битвы&#xD;
+     b.go();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3hS-sJ0KEe-HC8DiynxfYg" name="main" isStatic="true" method="_3y5FAJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3hUz4J0KEe-HC8DiynxfYg" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3ha6gJ0KEe-HC8DiynxfYg" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3fdLoJ0KEe-HC8DiynxfYg" name="moves">
+      <packagedElement xmi:type="uml:Class" xmi:id="_3hek4J0KEe-HC8DiynxfYg" name="Amnesia">
+        <generalization xmi:id="_3yVrYZ0KEe-HC8DiynxfYg" general="_3xKmsJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zJjsJ0KEe-HC8DiynxfYg" name="Amnesia" specification="_3hi2UJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zJjsZ0KEe-HC8DiynxfYg" type="_3hek4J0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.PSYCHIC, 0, 0);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zJjsp0KEe-HC8DiynxfYg" name="applySelfEffects" specification="_3yQL0J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zJjs50KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <language>java</language>
+          <body>if (pokemon.getStat(Stat.SPECIAL_DEFENSE) &lt; 6) { &#xD;
+         pokemon.setMod(Stat.SPECIAL_DEFENSE, 2);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zKKwJ0KEe-HC8DiynxfYg" name="describe" specification="_3hoV4J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zKKwZ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String[] pieces = this.getClass().toString().split(&quot;\\.&quot;);&#xD;
+     return &quot;использует способность &quot; + pieces[pieces.length - 1];&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3hi2UJ0KEe-HC8DiynxfYg" name="Amnesia" method="_3zJjsJ0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3hkEcJ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3hl5oJ0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3hmgsJ0KEe-HC8DiynxfYg" type="_3hek4J0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3hoV4J0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zKKwJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ho88J0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3yQL0J0KEe-HC8DiynxfYg" name="applySelfEffects" visibility="protected" method="_3zJjsp0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3yQy4J0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3h7Q0J0KEe-HC8DiynxfYg" name="Facade">
+        <generalization xmi:id="_3yZ80Z0KEe-HC8DiynxfYg" general="_3xv1gJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zKKwp0KEe-HC8DiynxfYg" name="Facade" specification="_3h-UIJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zKKw50KEe-HC8DiynxfYg" type="_3h7Q0J0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.NORMAL, 70, 100);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zLY4J0KEe-HC8DiynxfYg" name="applyOppDamage" specification="_3yW5gJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zLY4Z0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3zLY4p0KEe-HC8DiynxfYg" name="damage">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Status statusCondition = pokemon.getCondition();&#xD;
+     double finalDamage = calculateFacadeDamage(damage, statusCondition);&#xD;
+     pokemon.setMod(Stat.HP, (int) finalDamage);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zL_8J0KEe-HC8DiynxfYg" name="calculateFacadeDamage" specification="_3yZVwJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zL_8Z0KEe-HC8DiynxfYg" name="basePower">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3zL_8p0KEe-HC8DiynxfYg" name="statusCondition" type="_3xyRwJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3zL_850KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (statusCondition == Status.BURN || statusCondition == Status.POISON || statusCondition == Status.PARALYZE) {&#xD;
+         if (statusCondition == Status.BURN) {&#xD;
+             return basePower; &#xD;
+         }&#xD;
+         return basePower * 2;&#xD;
+     }&#xD;
+     return basePower;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zL_9J0KEe-HC8DiynxfYg" name="describe" specification="_3iDMoJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zL_9Z0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String[] pieces = this.getClass().toString().split(&quot;\\.&quot;);&#xD;
+     return &quot;использует способность &quot; + pieces[pieces.length - 1];&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3h-UIJ0KEe-HC8DiynxfYg" name="Facade" method="_3zKKwp0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3h-7MJ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3h_iQJ0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3iAJUJ0KEe-HC8DiynxfYg" type="_3h7Q0J0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3iDMoJ0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zL_9J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3iEawJ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3yW5gJ0KEe-HC8DiynxfYg" name="applyOppDamage" visibility="protected" method="_3zLY4J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3yW5gZ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3yW5gp0KEe-HC8DiynxfYg" name="damage">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3yZVwJ0KEe-HC8DiynxfYg" name="calculateFacadeDamage" method="_3zL_8J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3yZVwZ0KEe-HC8DiynxfYg" name="basePower">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_3yZVwp0KEe-HC8DiynxfYg" name="statusCondition" type="_3xyRwJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3yZ80J0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3iKhYJ0KEe-HC8DiynxfYg" name="KarateChop">
+        <generalization xmi:id="_3ydnMp0KEe-HC8DiynxfYg" general="_3xv1gJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zL_9p0KEe-HC8DiynxfYg" name="KarateChop" specification="_3iLIcJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zL_950KEe-HC8DiynxfYg" type="_3iKhYJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.FIGHTING, 50, 100);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zMnAJ0KEe-HC8DiynxfYg" name="applyOppDamage" specification="_3yaj4J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zMnAZ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3zMnAp0KEe-HC8DiynxfYg" name="damage">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>pokemon.setMod(Stat.HP, (int) damage);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zMnA50KEe-HC8DiynxfYg" name="calcCriticalHit" specification="_3ybK8p0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zN1IJ0KEe-HC8DiynxfYg" name="att" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3zN1IZ0KEe-HC8DiynxfYg" name="def" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3zN1Ip0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 1.0 / 8.0;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zQ4cJ0KEe-HC8DiynxfYg" name="describe" specification="_3iMWkJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zQ4cZ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;использует способность &quot; + this.getClass().getSimpleName();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3iLIcJ0KEe-HC8DiynxfYg" name="KarateChop" method="_3zL_9p0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3iLIcZ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3iLIcp0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3iLIc50KEe-HC8DiynxfYg" type="_3iKhYJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3iMWkJ0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zQ4cJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3iOLwJ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3yaj4J0KEe-HC8DiynxfYg" name="applyOppDamage" visibility="protected" method="_3zMnAJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3yaj4Z0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3yaj4p0KEe-HC8DiynxfYg" name="damage">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3ybK8p0KEe-HC8DiynxfYg" name="calcCriticalHit" visibility="protected" method="_3zMnA50KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ybK850KEe-HC8DiynxfYg" name="att" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3ybK9J0KEe-HC8DiynxfYg" name="def" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3ybyAJ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3iTEQJ0KEe-HC8DiynxfYg" name="MagicalLeaf">
+        <generalization xmi:id="_3yfcYZ0KEe-HC8DiynxfYg" general="_3x4YYJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zUi0J0KEe-HC8DiynxfYg" name="MagicalLeaf" specification="_3iUSYJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zUi0Z0KEe-HC8DiynxfYg" type="_3iTEQJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.GRASS, 60, 0);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zVw8J0KEe-HC8DiynxfYg" name="applyOppDamage" specification="_3yeOQJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zVw8Z0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3zVw8p0KEe-HC8DiynxfYg" name="damage">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>pokemon.setMod(Stat.HP, (int) damage);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zVw850KEe-HC8DiynxfYg" name="checkAccuracy" specification="_3ye1UJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zVw9J0KEe-HC8DiynxfYg" name="att" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3zWYAJ0KEe-HC8DiynxfYg" name="def" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3zWYAZ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return true;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zWYAp0KEe-HC8DiynxfYg" name="describe" specification="_3iWHkJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zWYA50KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;использует способность &quot; + this.getClass().getSimpleName();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3iUSYJ0KEe-HC8DiynxfYg" name="MagicalLeaf" method="_3zUi0J0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3iU5cJ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3iU5cZ0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3iU5cp0KEe-HC8DiynxfYg" type="_3iTEQJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3iWHkJ0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zWYAp0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3iXVsJ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3yeOQJ0KEe-HC8DiynxfYg" name="applyOppDamage" visibility="protected" method="_3zVw8J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3yeOQZ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3yeOQp0KEe-HC8DiynxfYg" name="damage">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3ye1UJ0KEe-HC8DiynxfYg" name="checkAccuracy" visibility="protected" method="_3zVw850KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ye1UZ0KEe-HC8DiynxfYg" name="att" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3ye1Up0KEe-HC8DiynxfYg" name="def" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <ownedParameter xmi:id="_3ye1U50KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3iZK4J0KEe-HC8DiynxfYg" name="Pound">
+        <generalization xmi:id="_3yfcYp0KEe-HC8DiynxfYg" general="_3xv1gJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zWYBJ0KEe-HC8DiynxfYg" name="Pound" specification="_3ibnIJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zWYBZ0KEe-HC8DiynxfYg" type="_3iZK4J0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.NORMAL, 40, 100);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zXmIJ0KEe-HC8DiynxfYg" name="describe" specification="_3icOMp0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zXmIZ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;использует способность &quot; + this.getClass().getSimpleName();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3ibnIJ0KEe-HC8DiynxfYg" name="Pound" method="_3zWYBJ0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3ibnIZ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3icOMJ0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3icOMZ0KEe-HC8DiynxfYg" type="_3iZK4J0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3icOMp0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zXmIJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ic1QJ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3ieDYZ0KEe-HC8DiynxfYg" name="RockTomb">
+        <generalization xmi:id="_3ykU4J0KEe-HC8DiynxfYg" general="_3xv1gJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zY0QJ0KEe-HC8DiynxfYg" name="RockTomb" specification="_3if4kJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zY0QZ0KEe-HC8DiynxfYg" type="_3ieDYZ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.ROCK, 60, 95);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zZbUJ0KEe-HC8DiynxfYg" name="applyOppEffects" specification="_3yfcY50KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zZbUZ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <language>java</language>
+          <body>pokemon.setMod(Stat.SPEED, -1);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zZbUp0KEe-HC8DiynxfYg" name="describe" specification="_3igfoJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zZbU50KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;использует способность &quot; + this.getClass().getSimpleName();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3if4kJ0KEe-HC8DiynxfYg" name="RockTomb" method="_3zY0QJ0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3if4kZ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3if4kp0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3if4k50KEe-HC8DiynxfYg" type="_3ieDYZ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3igfoJ0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zZbUp0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3igfoZ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3yfcY50KEe-HC8DiynxfYg" name="applyOppEffects" visibility="protected" method="_3zZbUJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ygDcJ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3ikKAJ0KEe-HC8DiynxfYg" name="ShadowBall">
+        <generalization xmi:id="_3yk7850KEe-HC8DiynxfYg" general="_3x4YYJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zZbVJ0KEe-HC8DiynxfYg" name="ShadowBall" specification="_3ilYIJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zZbVZ0KEe-HC8DiynxfYg" type="_3ikKAJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.GHOST, 80, 100);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zZbVp0KEe-HC8DiynxfYg" name="applyOppEffects" specification="_3ykU4Z0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zZbV50KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <language>java</language>
+          <body>if (Math.random() &lt; 0.2) {&#xD;
+         pokemon.setMod(Stat.SPECIAL_DEFENSE, -1);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zZbWJ0KEe-HC8DiynxfYg" name="describe" specification="_3il_MJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zZbWZ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;использует способность &quot; + this.getClass().getSimpleName();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3ilYIJ0KEe-HC8DiynxfYg" name="ShadowBall" method="_3zZbVJ0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3ilYIZ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3ilYIp0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3ilYI50KEe-HC8DiynxfYg" type="_3ikKAJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3il_MJ0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zZbWJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3il_MZ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3ykU4Z0KEe-HC8DiynxfYg" name="applyOppEffects" visibility="protected" method="_3zZbVp0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ykU4p0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3iss4J0KEe-HC8DiynxfYg" name="Snarl">
+        <generalization xmi:id="_3yljA50KEe-HC8DiynxfYg" general="_3x4YYJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zapcJ0KEe-HC8DiynxfYg" name="Snarl" specification="_3itT8J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zapcZ0KEe-HC8DiynxfYg" type="_3iss4J0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.DARK, 55, 95);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zbQgJ0KEe-HC8DiynxfYg" name="applyOppEffects" specification="_3yk79J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zbQgZ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <language>java</language>
+          <body>pokemon.setMod(Stat.SPECIAL_ATTACK, -1);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zbQgp0KEe-HC8DiynxfYg" name="describe" specification="_3it7AZ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zbQg50KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;использует способность &quot; + this.getClass().getSimpleName();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3itT8J0KEe-HC8DiynxfYg" name="Snarl" method="_3zapcJ0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3itT8Z0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3itT8p0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3it7AJ0KEe-HC8DiynxfYg" type="_3iss4J0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3it7AZ0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zbQgp0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3it7Ap0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3yk79J0KEe-HC8DiynxfYg" name="applyOppEffects" visibility="protected" method="_3zbQgJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3yk79Z0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3ivwMJ0KEe-HC8DiynxfYg" name="SweetScent">
+        <generalization xmi:id="_3yn_QZ0KEe-HC8DiynxfYg" general="_3xKmsJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zb3kJ0KEe-HC8DiynxfYg" name="SweetScent" specification="_3iwXQJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zb3kZ0KEe-HC8DiynxfYg" type="_3ivwMJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.NORMAL, 0, 100);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zb3kp0KEe-HC8DiynxfYg" name="applyOppEffects" specification="_3ymKEJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zb3k50KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <language>java</language>
+          <body>if (pokemon.getStat(Stat.EVASION) > -6) { &#xD;
+         pokemon.setMod(Stat.EVASION, -1);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zb3lJ0KEe-HC8DiynxfYg" name="describe" specification="_3iw-UJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zb3lZ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String[] pieces = this.getClass().toString().split(&quot;\\.&quot;);&#xD;
+		return &quot;использует способность &quot; + pieces[pieces.length-1];&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3iwXQJ0KEe-HC8DiynxfYg" name="SweetScent" method="_3zb3kJ0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3iwXQZ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3iwXQp0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3iwXQ50KEe-HC8DiynxfYg" type="_3ivwMJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3iw-UJ0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zb3lJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3iw-UZ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3ymKEJ0KEe-HC8DiynxfYg" name="applyOppEffects" visibility="protected" method="_3zb3kp0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3ymKEZ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3iyMcJ0KEe-HC8DiynxfYg" name="ThunderWave">
+        <generalization xmi:id="_3yqbgp0KEe-HC8DiynxfYg" general="_3xKmsJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zb3lp0KEe-HC8DiynxfYg" name="ThunderWave" specification="_3iyMcZ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zb3l50KEe-HC8DiynxfYg" type="_3iyMcJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.ELECTRIC, 0, 90);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zb3mJ0KEe-HC8DiynxfYg" name="applyOppEffects" specification="_3yomUJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zb3mZ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <language>java</language>
+          <body>Effect.paralyze(pokemon);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zb3mp0KEe-HC8DiynxfYg" name="describe" specification="_3iyzgZ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zb3m50KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;использует способность &quot; + this.getClass().getSimpleName();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3iyMcZ0KEe-HC8DiynxfYg" name="ThunderWave" method="_3zb3lp0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3iyMcp0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3iyMc50KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3iyzgJ0KEe-HC8DiynxfYg" type="_3iyMcJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3iyzgZ0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zb3mp0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3i0BoJ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3yomUJ0KEe-HC8DiynxfYg" name="applyOppEffects" visibility="protected" method="_3zb3mJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3yomUZ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3i-ZsJ0KEe-HC8DiynxfYg" name="WorkUp">
+        <generalization xmi:id="_3ysQsp0KEe-HC8DiynxfYg" general="_3xKmsJ0KEe-HC8DiynxfYg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zceoJ0KEe-HC8DiynxfYg" name="WorkUp" specification="_3jFucJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zceoZ0KEe-HC8DiynxfYg" type="_3i-ZsJ0KEe-HC8DiynxfYg" direction="return"/>
+          <language>java</language>
+          <body>super(Type.NORMAL, 0, 0);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zdswJ0KEe-HC8DiynxfYg" name="applySelfEffects" specification="_3yqbg50KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zdswZ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+          <language>java</language>
+          <body>pokemon.setMod(Stat.ATTACK, 1);&#xD;
+     pokemon.setMod(Stat.SPECIAL_ATTACK, 1);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_3zeT0J0KEe-HC8DiynxfYg" name="describe" specification="_3jMcIJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3zeT0Z0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;использует способность &quot; + this.getClass().getSimpleName();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_3jFucJ0KEe-HC8DiynxfYg" name="WorkUp" method="_3zceoJ0KEe-HC8DiynxfYg">
+          <eAnnotations xmi:id="_3jIKsJ0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_3jIKsZ0KEe-HC8DiynxfYg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_3jIxwJ0KEe-HC8DiynxfYg" type="_3i-ZsJ0KEe-HC8DiynxfYg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3jMcIJ0KEe-HC8DiynxfYg" name="describe" visibility="protected" method="_3zeT0J0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3jNqQJ0KEe-HC8DiynxfYg" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_3yqbg50KEe-HC8DiynxfYg" name="applySelfEffects" visibility="protected" method="_3zdswJ0KEe-HC8DiynxfYg">
+          <ownedParameter xmi:id="_3yrCkJ0KEe-HC8DiynxfYg" name="pokemon" type="_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_29OBQJ0KEe-HC8DiynxfYg">
+      <eAnnotations xmi:id="_29UH4J0KEe-HC8DiynxfYg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_29a1kJ0KEe-HC8DiynxfYg" base_Package="_2i-VQJ0KEe-HC8DiynxfYg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3hqyIJ0KEe-HC8DiynxfYg" base_Element="_3hoV4J0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3h1xQJ0KEe-HC8DiynxfYg" base_Element="_3hoV4J0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3h3mcJ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3iFo4J0KEe-HC8DiynxfYg" base_Element="_3iDMoJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3iG3AJ0KEe-HC8DiynxfYg" base_Element="_3iDMoJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3iHeEJ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3iOy0J0KEe-HC8DiynxfYg" base_Element="_3iMWkJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3iQA8J0KEe-HC8DiynxfYg" base_Element="_3iMWkJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3iQoAJ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3iXVsZ0KEe-HC8DiynxfYg" base_Element="_3iWHkJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3iX8wJ0KEe-HC8DiynxfYg" base_Element="_3iWHkJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3iX8wZ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3idcUJ0KEe-HC8DiynxfYg" base_Element="_3icOMp0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3idcUZ0KEe-HC8DiynxfYg" base_Element="_3icOMp0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3ieDYJ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3ihGsJ0KEe-HC8DiynxfYg" base_Element="_3igfoJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3ihGsZ0KEe-HC8DiynxfYg" base_Element="_3igfoJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3ihGsp0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3inNUJ0KEe-HC8DiynxfYg" base_Element="_3il_MJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3inNUZ0KEe-HC8DiynxfYg" base_Element="_3il_MJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3inNUp0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3iuiEJ0KEe-HC8DiynxfYg" base_Element="_3it7AZ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3ivJIJ0KEe-HC8DiynxfYg" base_Element="_3it7AZ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3ivJIZ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3iw-Up0KEe-HC8DiynxfYg" base_Element="_3iw-UJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3iw-U50KEe-HC8DiynxfYg" base_Element="_3iw-UJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3ixlYJ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3i0osJ0KEe-HC8DiynxfYg" base_Element="_3iyzgZ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3i0osZ0KEe-HC8DiynxfYg" base_Element="_3iyzgZ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3i0osp0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3jO4YJ0KEe-HC8DiynxfYg" base_Element="_3jMcIJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3jQtkJ0KEe-HC8DiynxfYg" base_Element="_3jMcIJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3jQtkZ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_3xU-wJ0KEe-HC8DiynxfYg" base_Element="_3xKmsJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Reference xmi:id="_3xgk8J0KEe-HC8DiynxfYg" base_Element="_3xZ3QJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Reference xmi:id="_3xogwJ0KEe-HC8DiynxfYg" base_Element="_3xjBMJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Reference xmi:id="_3xrkEJ0KEe-HC8DiynxfYg" base_Element="_3xpu4J0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Reference xmi:id="_3xwckJ0KEe-HC8DiynxfYg" base_Element="_3xv1gJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Reference xmi:id="_3x0G8J0KEe-HC8DiynxfYg" base_Element="_3xyRwJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Reference xmi:id="_3x5mgJ0KEe-HC8DiynxfYg" base_Element="_3x4YYJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Reference xmi:id="_3yDXgJ0KEe-HC8DiynxfYg" base_Element="_3x_GEJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3yT2MJ0KEe-HC8DiynxfYg" base_Element="_3yQL0J0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3yVEUJ0KEe-HC8DiynxfYg" base_Element="_3yQL0J0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3yVrYJ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3yXgkJ0KEe-HC8DiynxfYg" base_Element="_3yW5gJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3yYusJ0KEe-HC8DiynxfYg" base_Element="_3yW5gJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3yYusZ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3yaj450KEe-HC8DiynxfYg" base_Element="_3yaj4J0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3ybK8J0KEe-HC8DiynxfYg" base_Element="_3yaj4J0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3ybK8Z0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3ycZEJ0KEe-HC8DiynxfYg" base_Element="_3ybK8p0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3ydnMJ0KEe-HC8DiynxfYg" base_Element="_3ybK8p0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3ydnMZ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3yeOQ50KEe-HC8DiynxfYg" base_Element="_3yeOQJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3yeORJ0KEe-HC8DiynxfYg" base_Element="_3yeOQJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3yeORZ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3ye1VJ0KEe-HC8DiynxfYg" base_Element="_3ye1UJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3ye1VZ0KEe-HC8DiynxfYg" base_Element="_3ye1UJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3yfcYJ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3yjGwJ0KEe-HC8DiynxfYg" base_Element="_3yfcY50KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3yjt0J0KEe-HC8DiynxfYg" base_Element="_3yfcY50KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3yjt0Z0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3yk78J0KEe-HC8DiynxfYg" base_Element="_3ykU4Z0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3yk78Z0KEe-HC8DiynxfYg" base_Element="_3ykU4Z0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3yk78p0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3yljAJ0KEe-HC8DiynxfYg" base_Element="_3yk79J0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3yljAZ0KEe-HC8DiynxfYg" base_Element="_3yk79J0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3yljAp0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3ymxIJ0KEe-HC8DiynxfYg" base_Element="_3ymKEJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3ynYMJ0KEe-HC8DiynxfYg" base_Element="_3ymKEJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3yn_QJ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3ypNYJ0KEe-HC8DiynxfYg" base_Element="_3yomUJ0KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3yqbgJ0KEe-HC8DiynxfYg" base_Element="_3yomUJ0KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3yqbgZ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_3yrCkZ0KEe-HC8DiynxfYg" base_Element="_3yqbg50KEe-HC8DiynxfYg"/>
+  <UMLLabProfile:Annotations xmi:id="_3ysQsJ0KEe-HC8DiynxfYg" base_Element="_3yqbg50KEe-HC8DiynxfYg">
+    <annotations xmi:id="_3ysQsZ0KEe-HC8DiynxfYg" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>
