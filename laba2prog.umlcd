@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_2tXnYJ0KEe-HC8DiynxfYg">
+  <modelElement href="laba2prog.uml#_2i-VQJ0KEe-HC8DiynxfYg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4EtNwJ0KEe-HC8DiynxfYg" subClass="_4EytUJ0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3ysQs50KEe-HC8DiynxfYg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4FEaIJ0KEe-HC8DiynxfYg" subClass="_4FIEgJ0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3ys3wJ0KEe-HC8DiynxfYg"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4FFBMJ0KEe-HC8DiynxfYg" sourceAnchor="0.0,26.0" targetAnchor="157.0,52.0" superClass="_4FIEgJ0KEe-HC8DiynxfYg" subClass="_4E-6kJ0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3yNIgJ0KEe-HC8DiynxfYg"/>
+    <bendpoints xmi:id="_4RV7kJ0KEe-HC8DiynxfYg" sourceX="-225" targetY="81"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4FpB4J0KEe-HC8DiynxfYg" sourceAnchor="150.0,0.0" targetAnchor="281.0,18.0" superClass="_4EytUJ0KEe-HC8DiynxfYg" subClass="_4FreIJ0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3yKsQJ0KEe-HC8DiynxfYg"/>
+    <bendpoints xmi:id="_4RXJsJ0KEe-HC8DiynxfYg" sourceY="-89" targetX="220"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4FzZ8J0KEe-HC8DiynxfYg" sourceAnchor="0.0,26.0" targetAnchor="150.0,52.0" superClass="_4FreIJ0KEe-HC8DiynxfYg" subClass="_4F12MJ0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3yHB4J0KEe-HC8DiynxfYg"/>
+    <bendpoints xmi:id="_4RXwwJ0KEe-HC8DiynxfYg" sourceX="-477" targetY="81"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_4F4ScJ0KEe-HC8DiynxfYg" subClass="_4F5gkJ0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3ysQtJ0KEe-HC8DiynxfYg"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4BaCIJ0KEe-HC8DiynxfYg" name="Program">
+    <modelElement href="laba2prog.uml#_3g59IJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4BapMJ0KEe-HC8DiynxfYg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4BapMZ0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4BapMp0KEe-HC8DiynxfYg" name="main" staticOperation="true">
+      <modelElement href="laba2prog.uml#_3hS-sJ0KEe-HC8DiynxfYg"/>
+      <visibility xmi:id="_4BbQQJ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4BbQQZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4BbQQp0KEe-HC8DiynxfYg" name="args">
+        <modelElement href="laba2prog.uml#_3hUz4J0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4BbQQ50KEe-HC8DiynxfYg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_4BbQRJ0KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4CnjEJ0KEe-HC8DiynxfYg" name="ThunderWave">
+    <modelElement href="laba2prog.uml#_3iyMcJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4CnjEZ0KEe-HC8DiynxfYg" position="-47.0,155.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4CnjEp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4CnjE50KEe-HC8DiynxfYg" name="ThunderWave">
+      <modelElement href="laba2prog.uml#_3iyMcZ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4CnjFJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4CnjFZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4CnjFp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4CnjF50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3iyzgJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4CnjGJ0KEe-HC8DiynxfYg" name="ThunderWave">
+          <modelElement href="laba2prog.uml#_3iyMcJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4CnjGZ0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3iyzgZ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4CnjGp0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3i0osJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4CnjG50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3i0osZ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4CnjHJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4CnjHZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4CnjHp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3i0BoJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4CnjH50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4CnjIJ0KEe-HC8DiynxfYg" name="applyOppEffects">
+      <modelElement href="laba2prog.uml#_3yomUJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4CnjIZ0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3ypNYJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4CnjIp0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3yqbgJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4CnjI50KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4CnjJJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4CnjJZ0KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3yomUZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4CnjJp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4CnjJ50KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4C7sIJ0KEe-HC8DiynxfYg" name="MagicalLeaf">
+    <modelElement href="laba2prog.uml#_3iTEQJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4C7sIZ0KEe-HC8DiynxfYg" position="274.0,-25.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4C7sIp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4C7sI50KEe-HC8DiynxfYg" name="MagicalLeaf">
+      <modelElement href="laba2prog.uml#_3iUSYJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4C7sJJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4C7sJZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4C7sJp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4C7sJ50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3iU5cp0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4C7sKJ0KEe-HC8DiynxfYg" name="MagicalLeaf">
+          <modelElement href="laba2prog.uml#_3iTEQJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4C7sKZ0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3iWHkJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4C7sKp0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3iXVsZ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4C7sK50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3iX8wJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4C7sLJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4C7sLZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4C7sLp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3iXVsJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4C7sL50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4C7sMJ0KEe-HC8DiynxfYg" name="applyOppDamage">
+      <modelElement href="laba2prog.uml#_3yeOQJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4C7sMZ0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3yeOQ50KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4C7sMp0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3yeORJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4C7sM50KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4C7sNJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4C7sNZ0KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3yeOQZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4C7sNp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4C7sN50KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4C7sOJ0KEe-HC8DiynxfYg" name="damage">
+        <modelElement href="laba2prog.uml#_3yeOQp0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4C7sOZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4C7sOp0KEe-HC8DiynxfYg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4C7sO50KEe-HC8DiynxfYg" name="checkAccuracy">
+      <modelElement href="laba2prog.uml#_3ye1UJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4C7sPJ0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3ye1VJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4C7sPZ0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3ye1VZ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4C7sPp0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4C7sP50KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4C7sQJ0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3ye1U50KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4C7sQZ0KEe-HC8DiynxfYg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4C7sQp0KEe-HC8DiynxfYg" name="att">
+        <modelElement href="laba2prog.uml#_3ye1UZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4C7sQ50KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4C7sRJ0KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4C7sRZ0KEe-HC8DiynxfYg" name="def">
+        <modelElement href="laba2prog.uml#_3ye1Up0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4C7sRp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4C7sR50KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4DH5YJ0KEe-HC8DiynxfYg" name="Pound">
+    <modelElement href="laba2prog.uml#_3iZK4J0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4DH5YZ0KEe-HC8DiynxfYg" position="-234.0,-23.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4DH5Yp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4DH5Y50KEe-HC8DiynxfYg" name="Pound">
+      <modelElement href="laba2prog.uml#_3ibnIJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4DH5ZJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4DH5ZZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4DH5Zp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4DH5Z50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3icOMZ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4DH5aJ0KEe-HC8DiynxfYg" name="Pound">
+          <modelElement href="laba2prog.uml#_3iZK4J0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4DH5aZ0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3icOMp0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4DH5ap0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3idcUJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4DH5a50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3idcUZ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4DH5bJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4DH5bZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4DH5bp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3ic1QJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4DH5b50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4DOnEJ0KEe-HC8DiynxfYg" name="KarateChop">
+    <modelElement href="laba2prog.uml#_3iKhYJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4DOnEZ0KEe-HC8DiynxfYg" position="-76.0,325.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4DPOIJ0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4DPOIZ0KEe-HC8DiynxfYg" name="KarateChop">
+      <modelElement href="laba2prog.uml#_3iLIcJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4DPOIp0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4DPOI50KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4DPOJJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4DPOJZ0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3iLIc50KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4DPOJp0KEe-HC8DiynxfYg" name="KarateChop">
+          <modelElement href="laba2prog.uml#_3iKhYJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4DPOJ50KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3iMWkJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4DPOKJ0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3iOy0J0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4DPOKZ0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3iQA8J0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4DPOKp0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4DPOK50KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4DPOLJ0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3iOLwJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4DPOLZ0KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4DPOLp0KEe-HC8DiynxfYg" name="applyOppDamage">
+      <modelElement href="laba2prog.uml#_3yaj4J0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4DPOL50KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3yaj450KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4DPOMJ0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3ybK8J0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4DPOMZ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4DPOMp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4DPOM50KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3yaj4Z0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4DPONJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4DPONZ0KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4DPONp0KEe-HC8DiynxfYg" name="damage">
+        <modelElement href="laba2prog.uml#_3yaj4p0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4DPON50KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4DPOOJ0KEe-HC8DiynxfYg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4DPOOZ0KEe-HC8DiynxfYg" name="calcCriticalHit">
+      <modelElement href="laba2prog.uml#_3ybK8p0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4DPOOp0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3ycZEJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4DPOO50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3ydnMJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4DPOPJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4DPOPZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4DPOPp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3ybyAJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4DPOP50KEe-HC8DiynxfYg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4DPOQJ0KEe-HC8DiynxfYg" name="att">
+        <modelElement href="laba2prog.uml#_3ybK850KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4DPOQZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4DPOQp0KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4DPOQ50KEe-HC8DiynxfYg" name="def">
+        <modelElement href="laba2prog.uml#_3ybK9J0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4DPORJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4DPORZ0KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4DhiAJ0KEe-HC8DiynxfYg" name="SweetScent">
+    <modelElement href="laba2prog.uml#_3ivwMJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4DhiAZ0KEe-HC8DiynxfYg" position="-415.0,123.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4DhiAp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4DhiA50KEe-HC8DiynxfYg" name="SweetScent">
+      <modelElement href="laba2prog.uml#_3iwXQJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4DhiBJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4DhiBZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4DhiBp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4DhiB50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3iwXQ50KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4DhiCJ0KEe-HC8DiynxfYg" name="SweetScent">
+          <modelElement href="laba2prog.uml#_3ivwMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4DhiCZ0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3iw-UJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4DhiCp0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3iw-Up0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4DhiC50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3iw-U50KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4DhiDJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4DhiDZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4DhiDp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3iw-UZ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4DhiD50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4DhiEJ0KEe-HC8DiynxfYg" name="applyOppEffects">
+      <modelElement href="laba2prog.uml#_3ymKEJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4DhiEZ0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3ymxIJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4DhiEp0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3ynYMJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4DhiE50KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4DhiFJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4DhiFZ0KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3ymKEZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4DhiFp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4DhiF50KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4DwykJ0KEe-HC8DiynxfYg" name="ShadowBall">
+    <modelElement href="laba2prog.uml#_3ikKAJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4DwykZ0KEe-HC8DiynxfYg" position="320.0,146.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4Dwykp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4Dwyk50KEe-HC8DiynxfYg" name="ShadowBall">
+      <modelElement href="laba2prog.uml#_3ilYIJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4DwylJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4DwylZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4Dwylp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4Dwyl50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3ilYI50KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4DwymJ0KEe-HC8DiynxfYg" name="ShadowBall">
+          <modelElement href="laba2prog.uml#_3ikKAJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4DwymZ0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3il_MJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4Dwymp0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3inNUJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4Dwym50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3inNUZ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4DwynJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4DwynZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4Dwynp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3il_MZ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4DxZoJ0KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4DxZoZ0KEe-HC8DiynxfYg" name="applyOppEffects">
+      <modelElement href="laba2prog.uml#_3ykU4Z0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4DxZop0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3yk78J0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4DxZo50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3yk78Z0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4DxZpJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4DxZpZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4DxZpp0KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3ykU4p0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4DxZp50KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4DxZqJ0KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4D5VcJ0KEe-HC8DiynxfYg" name="RockTomb">
+    <modelElement href="laba2prog.uml#_3ieDYZ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4D5VcZ0KEe-HC8DiynxfYg" position="-461.0,284.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4D5Vcp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4D5Vc50KEe-HC8DiynxfYg" name="RockTomb">
+      <modelElement href="laba2prog.uml#_3if4kJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4D5VdJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4D5VdZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4D5Vdp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4D5Vd50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3if4k50KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4D5VeJ0KEe-HC8DiynxfYg" name="RockTomb">
+          <modelElement href="laba2prog.uml#_3ieDYZ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4D5VeZ0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3igfoJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4D5Vep0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3ihGsJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4D5Ve50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3ihGsZ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4D5VfJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4D5VfZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4D5Vfp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3igfoZ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4D5Vf50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4D5VgJ0KEe-HC8DiynxfYg" name="applyOppEffects">
+      <modelElement href="laba2prog.uml#_3yfcY50KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4D5VgZ0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3yjGwJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4D5Vgp0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3yjt0J0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4D5Vg50KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4D5VhJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4D5VhZ0KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3ygDcJ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4D5Vhp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4D5Vh50KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4ECfYJ0KEe-HC8DiynxfYg" name="Amnesia">
+    <modelElement href="laba2prog.uml#_3hek4J0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4ECfYZ0KEe-HC8DiynxfYg" position="-46.0,514.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4ECfYp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4ECfY50KEe-HC8DiynxfYg" name="Amnesia">
+      <modelElement href="laba2prog.uml#_3hi2UJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4ECfZJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4ECfZZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4ECfZp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4ECfZ50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3hmgsJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4ECfaJ0KEe-HC8DiynxfYg" name="Amnesia">
+          <modelElement href="laba2prog.uml#_3hek4J0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4ECfaZ0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3hoV4J0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4ECfap0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3hqyIJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4ECfa50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3h1xQJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4ECfbJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4ECfbZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4ECfbp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3ho88J0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4ECfb50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4ECfcJ0KEe-HC8DiynxfYg" name="applySelfEffects">
+      <modelElement href="laba2prog.uml#_3yQL0J0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4ECfcZ0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3yT2MJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4ECfcp0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3yVEUJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4ECfc50KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4ECfdJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4ECfdZ0KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3yQy4J0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4ECfdp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4ECfd50KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4EQh0J0KEe-HC8DiynxfYg" name="WorkUp">
+    <modelElement href="laba2prog.uml#_3i-ZsJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4EQh0Z0KEe-HC8DiynxfYg" position="-598.0,-61.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4EQh0p0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4EQh050KEe-HC8DiynxfYg" name="WorkUp">
+      <modelElement href="laba2prog.uml#_3jFucJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4EQh1J0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4EQh1Z0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4EQh1p0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4EQh150KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3jIxwJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4EQh2J0KEe-HC8DiynxfYg" name="WorkUp">
+          <modelElement href="laba2prog.uml#_3i-ZsJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4EQh2Z0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3jMcIJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4ERI4J0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3jO4YJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4ERI4Z0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3jQtkJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4ERI4p0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4ERI450KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4ERI5J0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3jNqQJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4ERI5Z0KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4ERI5p0KEe-HC8DiynxfYg" name="applySelfEffects">
+      <modelElement href="laba2prog.uml#_3yqbg50KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4ERI550KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3yrCkZ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4ERI6J0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3ysQsJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4ERI6Z0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4ERI6p0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4ERI650KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3yrCkJ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4ERI7J0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4ERI7Z0KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4EZEsJ0KEe-HC8DiynxfYg" name="Snarl">
+    <modelElement href="laba2prog.uml#_3iss4J0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4EZEsZ0KEe-HC8DiynxfYg" position="389.0,317.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4EZEsp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4EZEs50KEe-HC8DiynxfYg" name="Snarl">
+      <modelElement href="laba2prog.uml#_3itT8J0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4EZEtJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4EZEtZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4EZEtp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4EZEt50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3it7AJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4EZEuJ0KEe-HC8DiynxfYg" name="Snarl">
+          <modelElement href="laba2prog.uml#_3iss4J0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4EZEuZ0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3it7AZ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4EZEup0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3iuiEJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4EZEu50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3ivJIJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4EZEvJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4EZEvZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4EZEvp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3it7Ap0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4EZEv50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4EZEwJ0KEe-HC8DiynxfYg" name="applyOppEffects">
+      <modelElement href="laba2prog.uml#_3yk79J0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4EZEwZ0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3yljAJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4EZEwp0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3yljAZ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4EZEw50KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4EZExJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4EZExZ0KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3yk79Z0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4EZExp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4EZEx50KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4EgZcJ0KEe-HC8DiynxfYg" name="Facade">
+    <modelElement href="laba2prog.uml#_3h7Q0J0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4EgZcZ0KEe-HC8DiynxfYg" position="344.0,522.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4EgZcp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4EgZc50KEe-HC8DiynxfYg" name="Facade">
+      <modelElement href="laba2prog.uml#_3h-UIJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4EgZdJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4EgZdZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4EgZdp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4EgZd50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3iAJUJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4EgZeJ0KEe-HC8DiynxfYg" name="Facade">
+          <modelElement href="laba2prog.uml#_3h7Q0J0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4EgZeZ0KEe-HC8DiynxfYg" name="describe">
+      <modelElement href="laba2prog.uml#_3iDMoJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4EgZep0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3iFo4J0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4EgZe50KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3iG3AJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4EgZfJ0KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4EgZfZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4EgZfp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3iEawJ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4EgZf50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_4EgZgJ0KEe-HC8DiynxfYg" name="applyOppDamage">
+      <modelElement href="laba2prog.uml#_3yW5gJ0KEe-HC8DiynxfYg"/>
+      <stereotypes xmi:id="_4EgZgZ0KEe-HC8DiynxfYg" name="LegacyStyledElement">
+        <modelElement href="laba2prog.uml#_3yXgkJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_4EgZgp0KEe-HC8DiynxfYg" name="Annotations">
+        <modelElement href="laba2prog.uml#_3yYusJ0KEe-HC8DiynxfYg"/>
+      </stereotypes>
+      <visibility xmi:id="_4EgZg50KEe-HC8DiynxfYg" label="#"/>
+      <cardinality xmi:id="_4EgZhJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_4EgZhZ0KEe-HC8DiynxfYg" name="pokemon">
+        <modelElement href="laba2prog.uml#_3yW5gZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4EgZhp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4EgZh50KEe-HC8DiynxfYg" name="Pokemon">
+          <modelElement href="laba2prog.uml#_3xjBMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4EgZiJ0KEe-HC8DiynxfYg" name="damage">
+        <modelElement href="laba2prog.uml#_3yW5gp0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4EgZiZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4EgZip0KEe-HC8DiynxfYg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4EgZi50KEe-HC8DiynxfYg" name="calculateFacadeDamage">
+      <modelElement href="laba2prog.uml#_3yZVwJ0KEe-HC8DiynxfYg"/>
+      <visibility xmi:id="_4EgZjJ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4EgZjZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4EgZjp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3yZ80J0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4EgZj50KEe-HC8DiynxfYg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4EgZkJ0KEe-HC8DiynxfYg" name="basePower">
+        <modelElement href="laba2prog.uml#_3yZVwZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4EgZkZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4EgZkp0KEe-HC8DiynxfYg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4EgZk50KEe-HC8DiynxfYg" name="statusCondition">
+        <modelElement href="laba2prog.uml#_3yZVwp0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4EgZlJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4EgZlZ0KEe-HC8DiynxfYg" name="Status">
+          <modelElement href="laba2prog.uml#_3xyRwJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4EytUJ0KEe-HC8DiynxfYg" name="Cleffa" generalizations="_4EtNwJ0KEe-HC8DiynxfYg" subclassedBy="_4FpB4J0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3jZQcJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4EytUZ0KEe-HC8DiynxfYg" position="-1403.0,357.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4EytUp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4EytU50KEe-HC8DiynxfYg" name="Cleffa">
+      <modelElement href="laba2prog.uml#_3jaekJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4EytVJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4EytVZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4EytVp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4EytV50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3jaelZ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4EytWJ0KEe-HC8DiynxfYg" name="Cleffa">
+          <modelElement href="laba2prog.uml#_3jZQcJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4EytWZ0KEe-HC8DiynxfYg" name="name">
+        <modelElement href="laba2prog.uml#_3jaekZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4EytWp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4EytW50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4EytXJ0KEe-HC8DiynxfYg" name="level">
+        <modelElement href="laba2prog.uml#_3jaekp0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4EytXZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4EytXp0KEe-HC8DiynxfYg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4E-6kJ0KEe-HC8DiynxfYg" name="Pangoro" generalizations="_4FFBMJ0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3jhzUJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4E_hoJ0KEe-HC8DiynxfYg" position="-467.0,445.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4E_hoZ0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4E_hop0KEe-HC8DiynxfYg" name="Pangoro">
+      <modelElement href="laba2prog.uml#_3jiaYJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4E_ho50KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4E_hpJ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4FAIsJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4FAIsZ0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3jiaZZ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4FAIsp0KEe-HC8DiynxfYg" name="Pangoro">
+          <modelElement href="laba2prog.uml#_3jhzUJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4FAIs50KEe-HC8DiynxfYg" name="name">
+        <modelElement href="laba2prog.uml#_3jiaYZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4FAItJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4FAItZ0KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4FAItp0KEe-HC8DiynxfYg" name="level">
+        <modelElement href="laba2prog.uml#_3jiaYp0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4FAIt50KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4FAIuJ0KEe-HC8DiynxfYg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4FIEgJ0KEe-HC8DiynxfYg" name="Pancham" generalizations="_4FEaIJ0KEe-HC8DiynxfYg" subclassedBy="_4FFBMJ0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3jglMJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4FIEgZ0KEe-HC8DiynxfYg" position="-849.0,338.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4FIEgp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4FIEg50KEe-HC8DiynxfYg" name="Pancham">
+      <modelElement href="laba2prog.uml#_3jhMQJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4FIEhJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4FIEhZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4FIEhp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4FIEh50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3jhMRZ0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4FIEiJ0KEe-HC8DiynxfYg" name="Pancham">
+          <modelElement href="laba2prog.uml#_3jglMJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4FIEiZ0KEe-HC8DiynxfYg" name="name">
+        <modelElement href="laba2prog.uml#_3jhMQZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4FIEip0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4FIEi50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4FIEjJ0KEe-HC8DiynxfYg" name="level">
+        <modelElement href="laba2prog.uml#_3jhMQp0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4FIEjZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4FIEjp0KEe-HC8DiynxfYg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4FreIJ0KEe-HC8DiynxfYg" name="Clefairy" generalizations="_4FpB4J0KEe-HC8DiynxfYg" subclassedBy="_4FzZ8J0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3jVmEJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4FreIZ0KEe-HC8DiynxfYg" position="-1052.0,464.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4FreIp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4FreI50KEe-HC8DiynxfYg" name="Clefairy">
+      <modelElement href="laba2prog.uml#_3jXbQJ0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4FreJJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4FreJZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4FreJp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4FreJ50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3jYCU50KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4FreKJ0KEe-HC8DiynxfYg" name="Clefairy">
+          <modelElement href="laba2prog.uml#_3jVmEJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4FreKZ0KEe-HC8DiynxfYg" name="name">
+        <modelElement href="laba2prog.uml#_3jXbQZ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4FreKp0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4FreK50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4FreLJ0KEe-HC8DiynxfYg" name="level">
+        <modelElement href="laba2prog.uml#_3jYCUJ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4FreLZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4FreLp0KEe-HC8DiynxfYg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4F12MJ0KEe-HC8DiynxfYg" name="Clefable" generalizations="_4FzZ8J0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3jR7sJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4F12MZ0KEe-HC8DiynxfYg" position="-425.0,571.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4F12Mp0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4F12M50KEe-HC8DiynxfYg" name="Clefable">
+      <modelElement href="laba2prog.uml#_3jTw4J0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4F12NJ0KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4F12NZ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4F12Np0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4F12N50KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3jUX9J0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4F12OJ0KEe-HC8DiynxfYg" name="Clefable">
+          <modelElement href="laba2prog.uml#_3jR7sJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4F12OZ0KEe-HC8DiynxfYg" name="name">
+        <modelElement href="laba2prog.uml#_3jUX8J0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4F12Op0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4F12O50KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4F12PJ0KEe-HC8DiynxfYg" name="level">
+        <modelElement href="laba2prog.uml#_3jUX8Z0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4F12PZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4F12Pp0KEe-HC8DiynxfYg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_4F5gkJ0KEe-HC8DiynxfYg" name="Comfey" generalizations="_4F4ScJ0KEe-HC8DiynxfYg">
+    <modelElement href="laba2prog.uml#_3jbFoJ0KEe-HC8DiynxfYg"/>
+    <visualProperties xmi:id="_4F6HoJ0KEe-HC8DiynxfYg" position="-23.0,676.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_4F6HoZ0KEe-HC8DiynxfYg" label="+"/>
+    <operations xmi:id="_4F6Hop0KEe-HC8DiynxfYg" name="Comfey">
+      <modelElement href="laba2prog.uml#_3jc60J0KEe-HC8DiynxfYg"/>
+      <keywords xmi:id="_4F6Ho50KEe-HC8DiynxfYg" keyword="create"/>
+      <visibility xmi:id="_4F6HpJ0KEe-HC8DiynxfYg" label="+"/>
+      <cardinality xmi:id="_4F6HpZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_4F6Hpp0KEe-HC8DiynxfYg">
+        <modelElement href="laba2prog.uml#_3jf-Ip0KEe-HC8DiynxfYg"/>
+        <type xmi:id="_4F6Hp50KEe-HC8DiynxfYg" name="Comfey">
+          <modelElement href="laba2prog.uml#_3jbFoJ0KEe-HC8DiynxfYg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_4F6HqJ0KEe-HC8DiynxfYg" name="name">
+        <modelElement href="laba2prog.uml#_3jeI8J0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4F6HqZ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4F6Hqp0KEe-HC8DiynxfYg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_4F6Hq50KEe-HC8DiynxfYg" name="level">
+        <modelElement href="laba2prog.uml#_3jfXEJ0KEe-HC8DiynxfYg"/>
+        <cardinality xmi:id="_4F6HrJ0KEe-HC8DiynxfYg" label="1" max="1" min="1"/>
+        <type xmi:id="_4F6HrZ0KEe-HC8DiynxfYg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
