@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Stat;
 
-public class Facade extends PhysicalMove {
+public final class Facade extends PhysicalMove {
 
     public Facade() {
         super(Type.NORMAL, 70, 100);

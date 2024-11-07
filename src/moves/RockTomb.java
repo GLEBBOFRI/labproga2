@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Stat;
 
-public class RockTomb extends PhysicalMove {
+public final class RockTomb extends PhysicalMove {
 
     public RockTomb() {
         super(Type.ROCK, 60, 95);

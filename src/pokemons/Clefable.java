@@ -3,7 +3,7 @@ package pokemons;
 import ru.ifmo.se.pokemon.Type;
 import moves.Facade;
 
-public class Clefable extends Clefairy {
+public final class Clefable extends Clefairy {
     public Clefable(String name, int level) {
         super(name, level);
         setType(Type.FAIRY);

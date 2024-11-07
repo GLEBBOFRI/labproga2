@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
 
-public class MagicalLeaf extends SpecialMove {
+public final class MagicalLeaf extends SpecialMove {
 
     public MagicalLeaf() {
         super(Type.GRASS, 60, 0);

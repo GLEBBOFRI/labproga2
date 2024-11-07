@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Stat;
 
-public class Amnesia extends StatusMove {
+public final class Amnesia extends StatusMove {
 
     public Amnesia() {
         super(Type.PSYCHIC, 0, 0);

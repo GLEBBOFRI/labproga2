@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Stat;
 
-public class WorkUp extends StatusMove {
+public final class WorkUp extends StatusMove {
 
     public WorkUp() {
         super(Type.NORMAL, 0, 0);

@@ -3,7 +3,7 @@ package pokemons;
 import ru.ifmo.se.pokemon.Type;
 import moves.Snarl;
 
-public class Pangoro extends Pancham {
+public final class Pangoro extends Pancham {
     public Pangoro(String name, int level) {
         super(name, level);
         setType(Type.FIGHTING, Type.DARK);

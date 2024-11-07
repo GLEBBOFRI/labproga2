@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Stat;
 
-public class SweetScent extends StatusMove {
+public final class SweetScent extends StatusMove {
 
     public SweetScent() {
         super(Type.NORMAL, 0, 100);

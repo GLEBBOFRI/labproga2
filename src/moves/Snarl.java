@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Type;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Stat;
 
-public class Snarl extends SpecialMove {
+public final class Snarl extends SpecialMove {
 
     public Snarl() {
         super(Type.DARK, 55, 95);
